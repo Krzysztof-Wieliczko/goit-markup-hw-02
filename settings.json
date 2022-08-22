@@ -1,0 +1,10 @@
+{
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "window.zoomLevel": -1,
+  "editor.fontWeight": "normal"
+}
