@@ -5,100 +5,98 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
-    <!-- Link z połączeniami -->
-    <link href="/style/style.css" rel="stylesheet" />
-    <link href="/style/style.css" rel="stylesheet" />
+    <title>Studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/css/style.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="background-color">
     <!-- Menu strony -->
-    <header>
-      <a href="index.html" style="text-decoration: none"
-        ><span style="color: #2196f3">Web</span
-        ><span style="color: #000000">Studio</span></a
+    <header class="background-menu-color">
+      <a href="/index.html" style="text-decoration: none"
+        ><span id="text-color-web">Web</span><span>Studio</span></a
       >
       <nav>
         <ul>
-          <li><a>Agencja</a></li>
-          <li><a href="/portfolio.html">Portfolio</a></li>
-          <li><a>Kontakt</a></li>
+          <li>
+            <a href="/index.html" class="link-type-subpage">Agencja</a>
+          </li>
+          <li>
+            <a href="/portfolio.html" class="link-type-subpage">Portfolio</a>
+          </li>
+          <li><a class="link-type-subpage">Kontakt</a></li>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
+      <div>
+        <ul id="text-color-header-contact">
+          <li>
+            <a href="mailto:info@devstudio.com" class="link-type-subpage"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+48111111111" class="link-type-subpage"
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+      <section class="background-table-color">
+        <h1 id="text-color-white">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button type="button" class="buttom-type-order">Zamów usługę</button>
       </section>
       <!-- Lorem Ipsum - treści informacyjne - rozwinięte będą w przyszłych wersjach -->
-      <section>
+      <section class="background-menu-color">
         <ul>
           <li>
             <h3>LOREM IPSUM</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur
-              <br />
-              adipiscing elit. Nam vel arcu sem. Sed
-              <br />
-              non sodales dui. Interdum et malesuada
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
 
           <li>
             <h3>LOREM IPSUM</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur
-              <br />
-              adipiscing elit. Nam vel arcu sem. Sed
-              <br />
-              non sodales dui. Interdum et malesuada
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
 
           <li>
             <h3>LOREM IPSUM</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur
-              <br />
-              adipiscing elit. Nam vel arcu sem. Sed
-              <br />
-              non sodales dui. Interdum et malesuada
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
 
           <li>
             <h3>LOREM IPSUM</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur
-              <br />
-              adipiscing elit. Nam vel arcu sem. Sed
-              <br />
-              non sodales dui. Interdum et malesuada
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
         </ul>
       </section>
       <!-- Sekcja ze zdjęciami opisującymi czym się zajmujemy. -->
       <section>
-        <h2>Czym się zajmujemy</h2>
+        <h2 id="text-color-black">Czym się zajmujemy</h2>
 
         <ul>
           <li>
             <img
               width="370"
               height="294"
-              src="images/keyboard-typing.jpg"
+              src="images/keyboardtyping.jpg"
               alt="Pisanie na klawiaturze"
             />
           </li>
@@ -106,7 +104,7 @@
             <img
               width="370"
               height="294"
-              src="images/testing-app-on-phone.jpg"
+              src="images/testingapponphone.jpg"
               alt="Testowanie aplikacji mobilnej na telefonie"
             />
           </li>
@@ -114,20 +112,20 @@
             <img
               width="370"
               height="294"
-              src="images/tablet-choosing-colors.jpg"
+              src="images/tabletchoosingcolors.jpg"
               alt="Paleta kolorów na tablecie"
             />
           </li>
         </ul>
       </section>
-      <section>
+      <section class="background-team-color">
         <h2>Nasz Zespół</h2>
         <ul>
           <li>
             <img
               width="270"
               height="260"
-              src="images/team-product-designer.jpg"
+              src="images/teamproductdesigner.jpg"
               alt="mezczyzna z okularami"
             />
           </li>
@@ -135,7 +133,7 @@
             <img
               width="270"
               height="260"
-              src="images/team-frontend-developer.jpg"
+              src="images/teamfrontenddeveloper.jpg"
               alt="kobieta z okularami"
             />
           </li>
@@ -143,7 +141,7 @@
             <img
               width="270"
               height="260"
-              src="images/team-marketing.jpg"
+              src="images/teammarketing.jpg"
               alt="mezczyzna"
             />
           </li>
@@ -151,7 +149,7 @@
             <img
               width="270"
               height="260"
-              src="images/team-ui-designer.jpg"
+              src="images/teamuidesigner.jpg"
               alt="mezczyzna z okularami"
             />
           </li>
@@ -159,22 +157,24 @@
       </section>
     </main>
 
-    <footer>
-      <ul>
-        <li>
-          <a href="index.html" style="text-decoration: none"
-            ><span style="color: #2196f3">Web</span
-            ><span style="color: #000000">Studio</span></a
-          >
-        </li>
+    <footer class="background-table-color">
+      <a href="/index.html" style="text-decoration: none"
+        ><span id="text-color-web">Web</span
+        ><span id="text-color-white">Studio</span></a
+      >
+      <ul id="text-color-white">
         <li>
           <address>m. Warszawa, Aleje Jerozolimskie 21</address>
         </li>
         <li>
-          <a href="mailto:info@example.com">info@example.com</a>
+          <a href="mailto:info@example.com" class="link-type-subpage"
+            >info@example.com</a
+          >
         </li>
         <li>
-          <a href="tel:+48111111111">+48 111 111 111</a>
+          <a href="tel:+48111111111" class="link-type-subpage"
+            >+48 111 111 111</a
+          >
         </li>
       </ul>
     </footer>
