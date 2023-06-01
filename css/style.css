@@ -56,8 +56,7 @@ footer a:any-link {
 }
 
 body {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
 }
 
@@ -127,6 +126,7 @@ Agencja - Portfolio - Kontakty - Phone Number - Mail */
   border-radius: 4px;
 }
 
+
 /* Portfolio */
 /* Buttons to filtr projects and order */
 .button-type-filtr:focus,
@@ -138,8 +138,7 @@ Agencja - Portfolio - Kontakty - Phone Number - Mail */
   cursor: pointer;
 }
 
-/* Text in main secion */
-
+/* Buttons */
 .button-filtr-text {
   font-weight: 500;
   font-size: 16px;
