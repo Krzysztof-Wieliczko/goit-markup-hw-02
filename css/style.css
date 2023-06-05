@@ -61,7 +61,6 @@ body {
 }
 
 address {
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
 }
@@ -72,18 +71,6 @@ Agencja - Portfolio - Kontakty - Phone Number - Mail */
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-}
-
-.link-type-subpage:focus,
-.link-type-subpage:hover {
-  color: #2196f3;
-  cursor: pointer;
-}
-
-.link-type-subpage-footer {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
 }
 
 /* Text in main section */
@@ -135,12 +122,25 @@ Agencja - Portfolio - Kontakty - Phone Number - Mail */
     0px 2px 2px rgba(0, 0, 0, 0.12);
   background-color: #2196f3;
   color: white;
-  cursor: pointer;
 }
+
+.link-type-subpage:focus,
+.link-type-subpage:hover {
+  color: #2196f3;
+}
+
 
 /* Buttons */
 .button-filtr-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
+}
+
+/* Footer */
+
+.link-type-subpage-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
