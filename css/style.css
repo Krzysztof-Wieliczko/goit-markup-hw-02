@@ -91,31 +91,31 @@ Agencja - Portfolio - Kontakty - Phone Number - Mail */
 .main-section-text {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
 }
 
 .heading-text {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
 }
 
 .heading-photo-text {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
 }
 
 .description-text {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
 }
 
 .order-text {
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
 }
 
 /* Buttons */
@@ -142,5 +142,5 @@ Agencja - Portfolio - Kontakty - Phone Number - Mail */
 .button-filtr-text {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625;
 }
